@@ -3,7 +3,7 @@ This README contains details about estimating the partition function values.
 
 For independent tree sampling estimation proposed in this work, navigate to the partition_function directory and run the following command:
 
-python main.py -h
+`python main.py -h`
 
 which will output information about the arguments that may be supplied to the partition function implementation.
 
@@ -27,7 +27,7 @@ Optional arguments:
 
 Example: From the partition_function directory execute:
 
-python main.py -i example/data.tsv -c cell0,cell5,cell6,cell7,cell8,cell9,cell10,cell17 -m mut0 -n 100 -fp 0.01 -fn 0.1
+`python main.py -i example/data.tsv -c cell0,cell5,cell6,cell7,cell8,cell9,cell10,cell17 -m mut0 -n 100 -fp 0.01 -fn 0.1`
 
 The corresponding output is:
 
